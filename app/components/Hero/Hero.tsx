@@ -1,3 +1,4 @@
+"use client";
 import Styles from "./Hero.module.css";
 
 export default function Hero() {
@@ -25,8 +26,11 @@ export default function Hero() {
                     <img src="/images/hero.png" alt="MG ZS" className={Styles.car} />
 
                     <div className={Styles.buttons}>
-                        <button className={Styles.primary}>Book a Test Drive</button>
-                        <button className={Styles.secondary}>Download the brochure</button>
+                        <button 
+                        className={Styles.primary}
+                        onClick={() => alert("Thank you! AdMakers International") }
+                        >Book a Test Drive</button>
+                        <a href="/downloadTest.pdf" download className={Styles.secondary}>Download the brochure</a>
                     </div>
                     <div className={Styles.heroParagraph}>
                     <h4>With class-leading six airbags as standard, a British-tuned
