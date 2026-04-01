@@ -1,11 +1,107 @@
 .hero{
-    text-align: center;
     padding: 40px, 20px;
+}
+.heroParagraph{
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.heroParagraph h4{
+     font-size: 18px;
+     font-family: sans-serif;
+     font-weight: 300;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+     align-items: center;
+     gap:20px;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+ 
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    margin-right: 28px;
+    
+}
+.center{
+    text-align: center;
+}
+.lefttext, .rightText{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.lefttext h4, .righttText h4{
+   font-weight: 300;
+   font-size: 14px;
+   margin-bottom: 2px;
+}
+.lefttext h3, .righttText h3{
+   font-weight: 800;
+   font-size: 15px;
+    margin-top: 0;
+     margin-bottom: 2px;
+}
+.lefttext span, .righttText span{
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 300;
+    
+}
+.rightText h2{
+     font-weight: 800;
+   font-size: 22px;
+    margin-top: 0;
+     margin-bottom: 2px;
+}
+
+
+
+.right{
+    display: flex;
+    gap: 20px;
+}
+.right img{
+    width: 50%;
+    height: 100%;
+}
+.rightText2{
+    width: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.rightText2 h4{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 2px;
+}
+
+.rightText2 h3{
+   font-weight: 800;
+   font-size: 15px;
+    margin-top: 0;
 }
 .hero h1{
     font-size: 50px;
     margin: 20px 0;
     font-weight: 600;
+    font-family: sans-serif;
+}
+.hero p{
+    font-size: 18px;
+    margin: 20px 0;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .car{
     width: 100%;
@@ -30,3 +126,5 @@
     border-color: transparent;
 
 }
+
+

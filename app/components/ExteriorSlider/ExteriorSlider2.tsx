@@ -10,8 +10,8 @@ import Styles from "./ExteriorSlider.module.css";
 export default function ExteriorSlider() {
 
     return(
-        <section className={Styles.container}>
-            <h1>Exterior</h1>
+        <section className={Styles.container2}>
+          
             <Swiper
             modules={[Pagination]}
             pagination={{
@@ -19,31 +19,31 @@ export default function ExteriorSlider() {
                 renderBullet: (index, className) => {
                 return `<span class="${className} custom-bullet"></span>`;
                 }, }}>
-
+                    
                 <SwiperSlide>
                     <div className={Styles.slide}>
+                         <img src="/images/slide2.png" alt="Exterior 1" />
+
                         <div className={Styles.text}>
-                            <h3>London Eye Headlights</h3>
-                            <p>The London Eye Headlamp reflected 
-                                in the Thames River, interplay with 
-                                the radiant grille, shimmering and 
-                                extraordinary. Classic British design 
-                                elements create the understated, dynamic
-                                 and highly recognizable ZS.</p>
+                            <h3>Rugged rear design</h3>
+                            <p>The rear stance is solid and stable, with 
+                                the taillights and tailgate switch design
+                                 reflecting personality.</p>
                         </div>
-                        <img src="/images/slide1.png" alt="Exterior 1" />
+                       
                     </div>
                     </SwiperSlide> 
                 
                 <SwiperSlide>
                     <div className={Styles.slide}>
+                         <img src="/images/secondSlide2.png" alt="Exterior 1" />
                         <div className={Styles.text}>
-                            <h3>Design</h3>
-                            <p>Inspired by British design, classic and timeless, the 
-                                cabin offers a comfortable and practical experience
-                                 that feels more like home.</p>
-                        </div>
-                        <img src="/images/secondSlide1.png" alt="Exterior 1" />
+                            <h3>Striking Alloy Wheel Design</h3>
+                            <p>The MG ZS features bold 17-inch dual-tone 
+                                alloy wheels with a sleek multi-spoke pattern,
+                                 combining aerodynamic efficiency with lasting durability for a
+                                  confident, stylish drive.</p>
+                        </div>         
                     </div>
                     </SwiperSlide> 
             </Swiper>

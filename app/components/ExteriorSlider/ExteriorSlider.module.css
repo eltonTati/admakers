@@ -1,0 +1,103 @@
+.container{
+    padding: 40px, 20px;    
+}
+.container h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+.slide{
+    display:flex;
+    gap:20px;
+    position: relative;
+}
+.slide img {
+  width: 50%;
+  border-radius: 10px;
+}
+.text{
+    width: 50%;
+    margin-left: 55px;
+    margin-right: 20px;
+    margin-top: 45px;
+}
+.text h3{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.text p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+
+
+:global(.swiper-pagination) {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-left: 40px;
+}
+
+:global(.swiper-pagination-bullet) {
+  width: 45px;
+  height: 3px;
+  background:black;
+  opacity: 1;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background: red;
+  width: 45px;
+}
+
+.container :global(.swiper-pagination) {
+  position: absolute;
+  top: 80%;       
+  transform: translateY(-50%);
+  margin-left: 18%;
+  display: flex;
+  gap: 10px;
+  width: auto;
+}
+.container :global(.swiper-pagination-bullet) {
+  width: 45px;
+  height: 3px;
+  background: black;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.container :global(.swiper-pagination-bullet-active) {
+  background: red;
+  width: 45px;
+}
+
+
+
+.container2 :global(.swiper-pagination) {
+  position: absolute;
+  top: 77%;       
+  transform: translateY(-50%);
+  margin-left: 65%;
+  display: flex;
+  gap: 10px;
+  width: auto;
+}
+.container2 :global(.swiper-pagination-bullet) {
+  width: 45px;
+  height: 3px;
+  background: black;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.container2 :global(.swiper-pagination-bullet-active) {
+  background: red;
+  width: 45px;
+}
