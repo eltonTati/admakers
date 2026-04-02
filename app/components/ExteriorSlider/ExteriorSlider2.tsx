@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Styles from "./ExteriorSlider.module.css";
 
+/*this is the component for the second slider(row 2) on exterior section*/
 
 
 export default function ExteriorSlider() {

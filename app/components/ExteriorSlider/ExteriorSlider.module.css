@@ -1,3 +1,4 @@
+/*CSS for the exterior section(row 1 and row 2) */
 .container{
     padding: 40px 20px;    
 }
@@ -128,12 +129,84 @@
     margin: 20px 0;
   }
 }
+
 @media (max-width: 768px) {
   .container :global(.swiper-pagination),
   .container2 :global(.swiper-pagination) {
     position: static;
     transform: none;
-    margin: 20px auto 0;
+    margin: 20px  auto 20;
+
     justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .container,
+  .container2 {
+    padding-bottom: 0;
+  }
+
+  .slide {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  :global(.swiper),
+  :global(.swiper-wrapper),
+  :global(.swiper-slide) {
+    height: auto !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .container {
+    padding: 30px 20px;
+  }
+
+  .container h1 {
+    font-size: 22px;
+    margin: 30px 0;
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: row; 
+    gap: 15px;
+    align-items: center;
+  }
+
+  .slide img {
+    width: 55%;
+  }
+
+  .text {
+    width: 45%;
+    padding: 0 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  .text h3 {
+    font-size: 17px;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
+
+
+  .container :global(.swiper-pagination) {
+    position: absolute;
+    top: 85%;
+    transform: translateY(-50%);
+    margin-left: 10%;
+  }
+
+  .container2 :global(.swiper-pagination) {
+    position: absolute;
+    top: 85%;
+    transform: translateY(-50%);
+    margin-left: 55%;
   }
 }

@@ -1,6 +1,8 @@
 "use client";
 import Styles from "./Hero.module.css";
 
+/*component for the hero section(overview) */
+
 export default function Hero() {
     return(
         <section className={Styles.hero} >
