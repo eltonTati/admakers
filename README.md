@@ -12,4 +12,8 @@ I tried to make it as the figma design and I was able to get all the assets from
 - CSS Modules
 - Swiper.js (for sliders): npm install swiper
 
+##  how to run the Project
 
+```bash
+npm install
+npm run dev
