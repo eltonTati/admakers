@@ -33,8 +33,7 @@
     font-family: sans-serif;
 }
 
-
-
+/*bullet pagination style*/
 
 :global(.swiper-pagination) {
   display: flex;
@@ -103,7 +102,7 @@
   width: 45px;
 }
 
-
+/*responsiveness */
 @media (max-width: 768px) {
   .slide {
     flex-direction: column;
