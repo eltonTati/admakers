@@ -103,38 +103,21 @@
 }
 
 
-/*responsiveness */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .slide {
     flex-direction: column;
-    align-items: center;
   }
 
   .slide img {
-    width: 80%;
+    width: 100%;
   }
 
   .text {
-    width: 80%;
-    margin: 20px 0;
-    text-align: center;
-  }
-
-  .container h1 {
-    font-size: 22px;
-  }
-
-  /* Fix pagination positioning */
-  .container :global(.swiper-pagination),
-  .container2 :global(.swiper-pagination) {
-    position: static;
-    transform: none;
-    margin: 20px auto 0;
-    justify-content: center;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0;
   }
 }
-
-/*responsiveness */
 @media (max-width: 768px) {
   .container {
     padding: 20px 15px;
@@ -142,44 +125,15 @@
 
   .container h1 {
     font-size: 20px;
-    margin: 25px 0;
-  }
-
-  .slide img {
-    width: 100%;
-  }
-
-  .text {
-    width: 100%;
-    margin: 15px 0;
-  }
-
-  .text h3 {
-    font-size: 16px;
-  }
-
-  .text p {
-    font-size: 14px;
-  }
-
-  /* Smaller pagination bars */
-  :global(.swiper-pagination-bullet) {
-    width: 30px;
-    height: 2px;
+    margin: 20px 0;
   }
 }
-
-/*responsiveness */
-@media (max-width: 480px) {
-  .container h1 {
-    font-size: 18px;
-  }
-
-  .text h3 {
-    font-size: 15px;
-  }
-
-  .text p {
-    font-size: 13px;
+@media (max-width: 768px) {
+  .container :global(.swiper-pagination),
+  .container2 :global(.swiper-pagination) {
+    position: static;
+    transform: none;
+    margin: 20px auto 0;
+    justify-content: center;
   }
 }
